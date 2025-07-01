@@ -34,7 +34,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone <url-do-seu-repositorio>
+    git clone (https://github.com/LucianoBastMV3/ApiRest_WaltDisney_BackEnd)
     cd ApiRest_WaltDisney_BackEnd
     ```
 
