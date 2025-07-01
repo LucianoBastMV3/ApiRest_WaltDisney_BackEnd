@@ -1,10 +1,10 @@
-IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'disney_db')
+IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'WaltDisney')
 BEGIN
-    CREATE DATABASE disney_db;
+    CREATE DATABASE WaltDisney;
 END
 GO
 
-USE disney_db;
+USE WaltDisney;
 GO
 
 IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='personagem_disney' and xtype='U')
